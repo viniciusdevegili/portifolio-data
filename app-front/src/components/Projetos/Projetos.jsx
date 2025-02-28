@@ -10,26 +10,30 @@ function Projetos() {
         </div>
         <div className="projetos-destaque">
           <div className="projeto1">
+            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
             <h3>Dashboard Comercial</h3>
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="botao">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais
             </a>
           </div>
           <div className="projeto2">
-          <h3>Dashboard Comercial</h3>
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="botao">
+            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
+            <h3>Dashboard Comercial</h3>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais
             </a>
           </div>
           <div className="projeto3">
-          <h3>Dashboard Comercial</h3>
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="botao">
+            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
+            <h3>Dashboard Comercial</h3>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais
             </a>
           </div>
           <div className="projeto4">
-          <h3>Dashboard Comercial</h3>
-            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="botao">
+            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
+            <h3>Dashboard Comercial</h3>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais
             </a>
           </div>

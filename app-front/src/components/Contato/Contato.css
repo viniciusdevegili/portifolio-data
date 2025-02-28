@@ -1,70 +1,47 @@
-.contato {
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .contato h2 {
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 10px;
-  }
-  
-  .contato p {
-    color: #ccc;
-    margin-bottom: 20px;
-  }
-  
-  .contato-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .contato-links a {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: 0.3s;
-  }
-  
-  .contato-links a:hover {
-    color: #6c63ff;
-  }
-  
-  .contato-form {
-    max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .contato-form input,
-  .contato-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #222;
-    color: #fff;
-  }
-  
-  .contato-form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #6c63ff;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .contato-form button:hover {
-    background: #524bd1;
-  }
-  
+.contatos-container {
+  background-color: #13131F;
+  padding: 50px 20px; 
+  text-align: center; 
+  font-family: "Poppins", sans-serif; 
+}
+
+.contatos-container h2 {
+  font-size: 1.5rem; 
+  color: #ffffff; 
+  margin-top: 100px;
+  margin-bottom: 90px; 
+}
+
+.contatos-lista {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+}
+
+.contato-item {
+  margin-bottom: 60px;
+}
+
+.contato-item i {
+  font-size: 2rem; 
+  color: #007bff; 
+  margin-bottom: 15px; 
+}
+
+.contato-item p {
+  font-size: 1rem; 
+  color: #ffffff; 
+  text-align: center; 
+  margin: 0; 
+}
+
+.contato-item a {
+  color: #686868; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.contato-item a:hover {
+  color: #0056b3; 
+}

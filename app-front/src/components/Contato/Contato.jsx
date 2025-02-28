@@ -1,33 +1,36 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import "./Contato.css"; 
+import React from "react";
+import "./Contato.css";
 
 function Contato() {
   return (
-    <section id="contato" className="contato">
-      <h2>Entre em Contato</h2>
-      <p>Fique à vontade para me chamar nas redes sociais ou enviar um e-mail!</p>
-
-      <div className="contato-links">
-        <a href="mailto:seuemail@email.com" target="_blank" rel="noopener noreferrer">
-          <FaEnvelope /> E-mail
-        </a>
-        <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer">
-          <FaGithub /> GitHub
-        </a>
-        <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin /> LinkedIn
-        </a>
-        <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
-          <FaInstagram /> Instagram
-        </a>
+    <section id="contatos" className="contatos-container">
+      <h2>Contatos</h2>
+      <div className="contatos-lista">
+        <div className="contato-item">
+          <i className="fas fa-envelope"></i> 
+          <p>Email</p>
+          <a href="mailto:viniciusdevegili@hotmail.com">viniciusdevegili@hotmail.com</a>
+        </div>
+        <div className="contato-item">
+          <i className="fas fa-phone"></i> 
+          <p>Telefone</p>
+          <a href="tel:+5547997839970">(47) 99783-9970</a>
+        </div>
+        <div className="contato-item">
+          <i className="fab fa-linkedin"></i> 
+          <p>Linkedin</p>
+          <a href="https://www.linkedin.com/in/vinicius-devegili/" target="_blank" rel="noopener noreferrer">
+            @viniciusdevegili
+          </a>
+        </div>
+        <div className="contato-item">
+          <i className="fab fa-github"></i>
+          <p>Github</p>
+          <a href="https://github.com/viniciusdevegili" target="_blank" rel="noopener noreferrer">
+            @viniciusdevegili
+          </a>
+        </div>
       </div>
-
-      <form className="contato-form">
-        <input type="text" placeholder="Seu nome" required />
-        <input type="email" placeholder="Seu e-mail" required />
-        <textarea placeholder="Sua mensagem" rows="4" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
     </section>
   );
 }
