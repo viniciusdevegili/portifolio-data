@@ -9,10 +9,10 @@ function Sobre() {
           <h1>Vinicius Devegili</h1>
           <h2>Analista de Dados</h2>
           <div className="botoes">
-            <a href="/caminho-do-seu-cv.pdf" download className="botao">
+            <a href="./public/cv.pdf" download className="botao">
               📄 Download CV
             </a>
-            <a href="#contato" className="botao botao-contato">
+            <a href="#contatos" className="botao botao-contato">
               ✉️ Entrar em Contato
             </a>
           </div>
