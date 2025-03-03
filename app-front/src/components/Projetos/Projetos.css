@@ -53,7 +53,7 @@
 
 .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3 {
     position: absolute; 
-    top: 140px; 
+    top: 100px; 
     left: 50%; 
     transform: translateX(-50%); 
     color: #fff; 
