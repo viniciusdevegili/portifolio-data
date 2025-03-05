@@ -169,21 +169,22 @@
 }
 
 .botao-conhecimentos {
-    color: #000000; 
+    color: #ffffff; 
     padding: 8px 29px; 
-    border-radius: 4px; 
+    border-radius: 13px; 
+    border: 1px solid #ffffff; 
+    background: transparent; 
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    border: none;
     margin-left: 110px;
     margin-top: 27px;
-  }
-  
-  .botao-conhecimentos:hover {
-    background-color: #000000; 
-    color: rgb(255, 255, 255);
-  }
+}
+
+.botao-conhecimentos:hover {
+    background: #ffffff; 
+    color: #000000; 
+}
 
   .modal-body ul {
     padding: 0;
@@ -206,6 +207,8 @@
     font-size: 1.2rem;
     flex-shrink: 0; 
   }
+
+  
   
   
 

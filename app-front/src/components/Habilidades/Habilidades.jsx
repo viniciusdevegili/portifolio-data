@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Modal from "../Modal/Modal";
 import "./Habilidades.css";
+import { Link } from "react-router-dom";
 
 function Habilidades() {
   const [modalAberto, setModalAberto] = useState(null);
@@ -22,57 +23,77 @@ function Habilidades() {
         <div className="card-container">
           <div className="card1">
             <img src="../src/assets/powerbi.png" alt="Power BI" />
-            <button onClick={() => abrirModal("Power BI")} className="botao-conhecimentos">
+            <button
+              onClick={() => abrirModal("Power BI")}
+              className="botao-conhecimentos"
+            >
               Conhecimentos
             </button>
-            <a href="#projetos" className="botao-projetos">
+            <Link to="/powerbi" className="botao-projetos">
               Ver Projetos
-            </a>
+            </Link>
           </div>
           <div className="card2">
             <img src="../src/assets/excel.png" alt="Excel" />
-            <button onClick={() => abrirModal("Excel")} className="botao-conhecimentos">
+            <button
+              onClick={() => abrirModal("Excel")}
+              className="botao-conhecimentos"
+            >
               Conhecimentos
             </button>
-            <a href="#projetos" className="botao-projetos">
+            <Link to="/excel" className="botao-projetos">
               Ver Projetos
-            </a>
+            </Link>
           </div>
           <div className="card3">
             <img src="../src/assets/python.png" alt="Python" />
-            <button onClick={() => abrirModal("Python")} className="botao-conhecimentos">
+            <button
+              onClick={() => abrirModal("Python")}
+              className="botao-conhecimentos"
+            >
               Conhecimentos
             </button>
-            <a href="#projetos" className="botao-projetos">
+            <Link to="/python" className="botao-projetos">
               Ver Projetos
-            </a>
+            </Link>
           </div>
           <div className="card4">
             <img src="../src/assets/sql.png" alt="SQL" />
-            <button onClick={() => abrirModal("SQL")} className="botao-conhecimentos">
+            <button
+              onClick={() => abrirModal("SQL")}
+              className="botao-conhecimentos"
+            >
               Conhecimentos
             </button>
-            <a href="#projetos" className="botao-projetos">
+            <Link to="/sql" className="botao-projetos">
               Ver Projetos
-            </a>
+            </Link>
           </div>
         </div>
       </div>
 
-      <Modal isOpen={modalAberto !== null} onClose={fecharModal} title={modalAberto}>
+      <Modal
+        isOpen={modalAberto !== null}
+        onClose={fecharModal}
+        title={modalAberto}
+      >
         {modalAberto === "Power BI" && (
           <ul>
             <li>Funções DAX (SUMX, CALCULATE, FILTER, RELATED, etc.)</li>
             <li>Modelagem de Dados (Relacionamento)</li>
             <li>Parâmetros e Medidas</li>
-            <li>Visualizações (Gráficos Avançados, KPI's, Dashboards Interativos)</li>
+            <li>
+              Visualizações (Gráficos Avançados, KPI's, Dashboards Interativos)
+            </li>
           </ul>
         )}
         {modalAberto === "Excel" && (
           <ul>
             <li>Tabelas Dinâmicas</li>
             <li>Funções Avançadas (ÍNDICE, CORRESP, PROCV, SOMASES)</li>
-            <li>Dashboards Interativos (Gráficos Dinâmicos, Segmentação de Dados)</li>
+            <li>
+              Dashboards Interativos (Gráficos Dinâmicos, Segmentação de Dados)
+            </li>
             <li>PowerQuery no Excel </li>
           </ul>
         )}

@@ -1,6 +1,100 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+.projetos-container {
+  display: flex;
+  justify-content: center;
+  background-color: #13131F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; 
+}
+
+.projetos {
+  max-width: 1600px; 
+  width: 100%;
+  text-align: center;
+}
+
+.projetos-text h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 170px;
+}
+
+.projetos-destaque {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+  max-width: 1400px; 
+  margin-left: 90px;
+}
+
+.projetos-destaque img {
+  width: 100%; 
+  height: 100%; 
+  border-radius: 10px;
+  object-fit: cover; 
+  opacity: 0.9;
+  filter: brightness(0.3); 
+}
+
+.projeto1, .projeto2, .projeto3, .projeto4 {
+  width: calc(50% - 15px); 
+  height: 400px;
+  position: relative; 
+}
+
+.projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3 {
+  position: absolute; 
+  top: 100px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-size: 1.2rem; 
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-vermais {
+  position: absolute; 
+  bottom: 150px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  background: none;
+  color: #8519E2; 
+  padding: 4px 35px; 
+  border-radius: 20px; 
+  font-size: 1rem; 
+  text-align: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #8519E2;
+  outline: none;
+  transition: all 0.3s ease-in-out; 
+}
+
+.btn-vermais:hover {
+  background: #8519E2;  
+  color: white; 
+  box-shadow: 0 0 10px #8519E2; 
+  transform: translateX(-50%) scale(1.05); 
+}
+
+.powerbi-logo {
+  margin-top: 90px;
+}
+
+
+
