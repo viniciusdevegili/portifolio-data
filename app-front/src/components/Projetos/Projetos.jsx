@@ -26,14 +26,14 @@ function Projetos() {
             </a>
           </div>
           <div className="projeto3">
-            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
+          <img src={dashBi} alt="Dashboard Comercial" />
             <h3>Dashboard Comercial</h3>
             <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais
             </a>
           </div>
           <div className="projeto4">
-            <img src="../src/assets/dash-bi.png" alt="Dashboard Comercial" />
+          <img src={dashBi} alt="Dashboard Comercial" />
             <h3>Dashboard Comercial</h3>
             <a href="https://app.powerbi.com/view?r=eyJrIjoiMmY4NTFhNDMtNjhjOS00M2QxLWFhM2ItNDkxYzI0ZWUxYzI1IiwidCI6IjA5MTdmZTEwLTU2ZGItNDRiZi1iMWM1LTMxMDYxYWIyMWNmOSJ9" className="btn-vermais">
               Ver Mais

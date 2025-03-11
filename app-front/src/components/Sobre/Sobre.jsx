@@ -1,4 +1,5 @@
 import "./Sobre.css";
+import bankSql from "../../assets/profile-photo.png";
 
 function Sobre() {
   return (
@@ -34,7 +35,7 @@ function Sobre() {
         </div>
       </div>
       <div className="sobre-imagem">
-        <img src="../src/assets/profile-photo.png" alt="Vinicius" />
+        <img src={profile-photo} alt="Vinicius" />
       </div>
     </section>
   );
