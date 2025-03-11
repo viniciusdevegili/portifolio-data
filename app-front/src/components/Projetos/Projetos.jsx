@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projetos.css";
-import dashBi from "../assets/dash-bi.png";
-import bankSql from "../assets/bank-sql.png";
+import dashBi from "../../assets/dash-bi.png";
+import bankSql from "../../assets/bank-sql.png";
 
 function Projetos() {
   return (
