@@ -1,0 +1,47 @@
+.contatos-container {
+  background-color: #13131F;
+  padding: 50px 20px; 
+  text-align: center; 
+  font-family: "Poppins", sans-serif; 
+}
+
+.contatos-container h2 {
+  font-size: 1.5rem; 
+  color: #ffffff; 
+  margin-top: 100px;
+  margin-bottom: 90px; 
+}
+
+.contatos-lista {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+}
+
+.contato-item {
+  margin-bottom: 60px;
+}
+
+.contato-item i {
+  font-size: 2rem; 
+  color: #8519E2; 
+  margin-bottom: 15px; 
+}
+
+.contato-item p {
+  font-size: 1rem; 
+  color: #ffffff; 
+  text-align: center; 
+  margin: 0; 
+}
+
+.contato-item a {
+  color: #686868; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+
+.contato-item a:hover {
+  color: #8519E2; 
+}

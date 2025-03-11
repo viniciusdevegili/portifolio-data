@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.habilidades-container {
+    background-color: #13131F;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border-radius: 30px;
+    gap: 50px
+}
+
+.card1 {
+    width: 385px;
+    height: 406px;
+    background-color: #FFCB24;
+    border-radius: 30px;
+}
+
+.card1 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 183px;
+    height: 180px;
+}
+
+.card1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 33px;
+    width: 170px;
+    margin-left: 106px;
+    cursor: pointer;
+    background-color: #FF8800;
+    border-radius: 4px;
+}
+
+.card2 {
+    width: 385px;
+    height: 406px;
+    background-color: #107C41;
+    border-radius: 30px;
+}
+
+.card2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 183px;
+    height: 180px;
+}
+
+.card2 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 33px;
+    width: 170px;
+    margin-left: 106px;
+    cursor: pointer;
+    background-color: #004625  ;
+    border-radius: 4px;
+}
+
+.card3 {
+    width: 385px;
+    height: 406px;
+    background-color: #347AB4;
+    border-radius: 30px;
+}
+
+.card3 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 183px;
+    height: 180px;
+}
+
+.card3 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 33px;
+    width: 170px;
+    margin-left: 106px;
+    cursor: pointer;
+    background-color: #164B77   ;
+    border-radius: 4px;
+}
+
+.card4 {
+    width: 385px;
+    height: 406px;
+    background-color: #00BCF2;
+    border-radius: 30px;
+}
+
+.card4 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 183px;
+    height: 180px;
+}
+
+.card4 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 30px;
+    height: 33px;
+    width: 170px;
+    margin-left: 106px;
+    cursor: pointer;
+    background-color: #01789A;
+    border-radius: 4px;
+}
+
+.botao-conhecimentos {
+    color: #ffffff; 
+    padding: 8px 29px; 
+    border-radius: 13px; 
+    border: 1px solid #ffffff; 
+    background: transparent; 
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-left: 110px;
+    margin-top: 27px;
+}
+
+.botao-conhecimentos:hover {
+    background: #ffffff; 
+    color: #000000; 
+}
+
+  .modal-body ul {
+    padding: 0;
+    list-style: none; 
+  }
+  
+  .modal-body ul li {
+    font-size: 1rem;
+    color: #000000;
+    padding: 8px 0;
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    text-align: left; 
+  }
+  
+  .modal-body ul li::before {
+    content: "✔️";
+    color: #8519E2;
+    font-size: 1.2rem;
+    flex-shrink: 0; 
+  }
+
+  
+  
+  
+
