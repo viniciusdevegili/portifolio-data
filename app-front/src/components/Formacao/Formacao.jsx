@@ -1,5 +1,6 @@
 import React from 'react';
 import './Formacao.css';
+import formacao from "../../assets/formacao.png";
 
 function Formacao() {
   return (
@@ -9,7 +10,7 @@ function Formacao() {
         <h2>Formação</h2>
       </div>
       <div className="formacao-img">
-        <img src="../src/assets/formacao.png" alt="Formacao" />
+        <img src={formacao} alt="Formacao" />
       </div>
     </div>
     </section>

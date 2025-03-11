@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import Modal from "../Modal/Modal";
 import "./Habilidades.css";
 import { Link } from "react-router-dom";
+import powerbi from "../../assets/powerbi.png";
+import excel from "../../assets/excel.png";
+import python from "../../assets/python.png";
+import sql from "../../assets/sql.png";
 
 function Habilidades() {
   const [modalAberto, setModalAberto] = useState(null);
@@ -22,7 +26,7 @@ function Habilidades() {
         </div>
         <div className="card-container">
           <div className="card1">
-            <img src="../src/assets/powerbi.png" alt="Power BI" />
+            <img src={powerbi} alt="PowerBI" />
             <button
               onClick={() => abrirModal("Power BI")}
               className="botao-conhecimentos"
@@ -34,7 +38,7 @@ function Habilidades() {
             </Link>
           </div>
           <div className="card2">
-            <img src="../src/assets/excel.png" alt="Excel" />
+            <img src={excel} alt="Excel" />
             <button
               onClick={() => abrirModal("Excel")}
               className="botao-conhecimentos"
@@ -46,7 +50,7 @@ function Habilidades() {
             </Link>
           </div>
           <div className="card3">
-            <img src="../src/assets/python.png" alt="Python" />
+            <img src={python} alt="Python" />
             <button
               onClick={() => abrirModal("Python")}
               className="botao-conhecimentos"
@@ -58,7 +62,7 @@ function Habilidades() {
             </Link>
           </div>
           <div className="card4">
-            <img src="../src/assets/sql.png" alt="SQL" />
+            <img src={sql} alt="SQL" />
             <button
               onClick={() => abrirModal("SQL")}
               className="botao-conhecimentos"
