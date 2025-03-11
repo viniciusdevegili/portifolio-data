@@ -7,7 +7,7 @@ import SQL from "./pages/SQL/SQL";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/powerbi" element={<PowerBI />} />
